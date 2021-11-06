@@ -4,7 +4,7 @@ const namberOfFilms = prompt("Сколько фильмов вы уже посм
 
 const PersonalMuvieDB = {
   count: namberOfFilms,
-  muveis: {},
+  movies: {},
   actors: {},
   genres: [],
   privat: false
@@ -17,8 +17,8 @@ const a = prompt("Один из последних просмотренных ф
       d = prompt("На сколько оцените его?", "");
   
 
- PersonalMuvieDB.movie[a] = b;
- PersonalMuvieDB.movie[c] = d;
+ PersonalMuvieDB.movies[a] = b;
+ PersonalMuvieDB.movies[c] = d;
 
  console.log(PersonalMuvieDB);
 
