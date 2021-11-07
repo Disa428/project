@@ -61,3 +61,41 @@ for (let i = 1; i < 10; i++) {
  }
 
 
+ //Функции
+let num = 20;
+
+ function showFirstMassage(text) {
+   console.log(text);
+   num = 20;
+ } 
+
+ showFirstMassage("hello World!");
+ console.log(num);
+
+function calc(a, b) {
+  return (a + b);
+}
+
+/* console.log(calc(4, 3));
+console.log(calc(4, 7));
+console.log(calc(4, 9));
+
+function ret() {
+ let num = 50;
+
+ //
+
+ return num;
+} */
+
+const anatherNum = ret();
+console.log(anatherNum);
+
+
+const logger = function () {
+  console.log("hello")
+};
+
+logger();
+
+const calc = (a, b) => a + b;
